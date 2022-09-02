@@ -1,0 +1,1 @@
+# coding40  - to moje pierwsze repozytorium na GitHubie, które stworzyłem tuż po podjęciu być może najważniejszej decyzji w moim życiu (tak przynajmniej czuję w tym momencie, kiedy piszę te słowa); tydzień temu ukończyłem 40 lat i postanowiłem nauczyć się kodowania, żeby już nigdy więcej nie żałować, że nie zacząłem wcześniej".
