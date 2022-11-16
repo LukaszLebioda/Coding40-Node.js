@@ -1,2 +1,2 @@
-echo "\Coding40-Node.js\node_modules" >> .gitignore
+node_modules/
 
