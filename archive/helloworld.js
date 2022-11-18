@@ -1,4 +1,4 @@
-const http = require("http");
+const http = require("http"); // require - includes a module we need (in this case http to make Node.js act as an HTTP server)
 
 http.createServer(function (request, response) {
    // Send the HTTP header 

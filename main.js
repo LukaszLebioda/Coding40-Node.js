@@ -1,1 +1,5 @@
-console.log("Helljjo World");
+let obj = {
+  name: "Arthur",
+  age: 23
+}
+console.log(obj);
