@@ -4,7 +4,7 @@
   "description": "First steps with Node.js",
   "main": "main.js",
   "scripts": {
-    "devStart": "nodemon server.js" 
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "Łukasz Lebioda",
@@ -12,7 +12,8 @@
   "dependencies": {
     "express": "^4.18.2",
     "firststeps": "^1.0.0",
-    "legalitychecker": "^1.0.1"
+    "legalitychecker": "^1.0.1",
+    "mysql2": "^2.3.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
