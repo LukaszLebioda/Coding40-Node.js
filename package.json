@@ -13,7 +13,9 @@
     "express": "^4.18.2",
     "firststeps": "^1.0.0",
     "legalitychecker": "^1.0.1",
-    "mysql2": "^2.3.3"
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "npx": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
