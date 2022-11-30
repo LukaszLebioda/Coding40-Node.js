@@ -41,7 +41,7 @@ connection.connect(function(err) {
 });
 
 // Perform a query
-$query = "INSERT INTO questions (question1, question2, answer) VALUES ('pytankoa', 'pytankob', '2')";
+$query = "INSERT INTO questions (question1, question2, answer) VALUES ('brzdąc', 'hrubuś', '3')";
 
 connection.query($query, function(err, rows, fields) {
     if(err){
