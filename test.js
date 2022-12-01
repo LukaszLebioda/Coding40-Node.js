@@ -25,10 +25,10 @@ var mysql = require('mysql');
 
 // Add the credentials to access your database
 var connection = mysql.createConnection({
-    host     : 'db4free.net',
-    user     : 'myuser40',
-    password : 'mypassword40',
-    database : 'mybaza40'
+    host     : '22656.m.tld.pl',
+    user     : 'admin22656_quizit_40',
+    password : 'x7C^d6L!c1',
+    database : 'baza22656_quizit_40'
 });
 
 // connect to mysql
@@ -41,7 +41,7 @@ connection.connect(function(err) {
 });
 
 // Perform a query
-$query = "INSERT INTO questions (question1, question2, answer) VALUES ('brzdąc', 'hrubuś', '3')";
+$query = "INSERT INTO questions (question1, question2, answer) VALUES ('McRae', 'Sainz', '2')";
 
 connection.query($query, function(err, rows, fields) {
     if(err){
