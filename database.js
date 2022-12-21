@@ -2,12 +2,21 @@
 // Get the mysql service
 var mysql = require('mysql');
 
+require("dotenv").config({ path: ".env" });
+
 // Add the credentials to access your database
 var connection = mysql.createConnection({
-    host     : '22656.v.tld.pl',
-    user     : 'admin22656_quizit_40',
-    password : 'MYSQLKankkunen123!!',
-    database : 'baza22656_quizit_40'
+
+    host     : process.env.HOST,
+    user     : process.env.USER,
+    password : process.env.PASS,
+    database : process.env.NAME,
+
+    // host     : '22656.v.tld.pl',
+    // user     : 'admin22656_quizit_40',
+    // password : 'MYSQLKankkunen123!!',
+    // database : 'baza22656_quizit_40'
+
     // host     : 'db4free.net',
     // user     : 'myuser40',
     // password : 'mypassword40',
