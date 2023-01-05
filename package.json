@@ -1,7 +1,35 @@
 {
   "dependencies": {
     "dotenv": "^16.0.3",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.3.3"
-  }
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "nodemailer-mailgun-transport": "^2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "name": "server",
+  "description": "contact form, database management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukaszLebioda/Coding40-Node.js.git"
+  },
+  "keywords": [
+    "database",
+    "contact",
+    "form"
+  ],
+  "author": "Łukasz Lebioda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukaszLebioda/Coding40-Node.js/issues"
+  },
+  "homepage": "https://github.com/LukaszLebioda/Coding40-Node.js#readme"
 }
