@@ -1,6 +1,6 @@
 
 // Get the mysql service
-var mysql = require('mysql');
+var mysql = require('mysql2');
 
 require("dotenv").config({ path: ".env" });
 
@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
     host     : process.env.HOST,
     user     : process.env.USER,
     password : process.env.PASS,
-    database : process.env.NAME,
+    database : process.env.NAME
 
     // host     : '22656.v.tld.pl',
     // user     : 'admin22656_quizit_40',
